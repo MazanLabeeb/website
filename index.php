@@ -14,6 +14,23 @@ require("./partials/header.php");
                 </div>
             </div>
         </header>
+        <!-- Pic & E-mail -->
+        <section>
+            <div class="container ">
+                <div class="row">
+                    <img src="/assets/img/dp.jpeg" alt="" class="img-fluid col-xl-6" width="150" height="250">
+                    
+                    <div class="text px-40 col-xl-6 ">
+                        <h1>Hey there ✌️ I'm Computer Networking Enthusiast. </h1>
+                        <p>Readers can subscribe below to receive the latest posts directly in their inbox 👇</p>
+                        <div class="input-container">
+                        <input type="text" placeholder="Enter your email address">
+                        <button class="subscribe-button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Main Content-->
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -30,6 +47,8 @@ require("./partials/header.php");
                             on December 28, 2022
                         </p>
                     </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
                     <div class="post-preview">
                         <a href="post.php">
                             <h2 class="post-title">Topology 101 </h2>
